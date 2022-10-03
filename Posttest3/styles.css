@@ -1,0 +1,176 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+                /*HEADER*/
+body{
+    background-color: #ffffff;
+}
+.nama{
+}
+.dark-mode {
+    background-color: black;
+  }
+.dark-mode-nama {
+    color: rgb(253, 249, 249);
+  }
+header{
+    background-color:#EE4699 ;
+}
+.static {
+    background: #a05379;
+	position: fixed;
+    float: left;
+    left: 10px;
+	padding: 5px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 10em 4em;
+}
+ul li{
+    margin-left: 1em;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+    font-weight: 900;
+}
+ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+#home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+    margin-bottom: 2em;
+
+}
+
+.home-text{
+    width: 500px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+.home-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding:10px;
+}
+
+.home-btn{
+    background-color: #050200;
+    color: #fff;
+    border:0;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+                    /*INFORMATION*/
+#information{
+    margin-bottom: 2em;
+   padding: 1em;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding:.6em ;
+}
+
+.information-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.information-images p{
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+.information-images img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #5C3D2E;
+    border-radius: 1em;
+}
+
+/*QUOTES*/
+#quotesday{
+    background-color: #E5E7EB;
+}
+#quotesday p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2936;
+    padding: 2em;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.author{
+    font-size: .4em;
+    position: absolute;
+    right: 20%;
+    bottom:20%;
+    color: #1F2937;
+    font-weight: 700;
+
+}
+
+/*SIGN UP*/
+#about-me{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    margin:4em auto;
+    background-color:#942d61;
+    border-radius: 5px;
+    padding: 2em 1em;
+}
+
+#about-me h3,p{
+    color:#f9faf8;
+    padding-bottom: 8px;
+}
+
+
+footer{
+    background-color: #e982b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2em 0;
+}
+footer p{
+    color: black;
+} 
